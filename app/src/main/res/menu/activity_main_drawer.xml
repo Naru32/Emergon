@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_details_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_folder_copy_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_gene"
+            android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+            android:title="@string/menu_gene" />
+        <item
+            android:id="@+id/nav_vpress"
+            android:icon="@mipmap/img"
+            android:title="@string/menu_vrpres" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="Patient Location" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/baseline_circle_notifications_24"
+            android:title="reminder" />
+        <item
+            android:id="@+id/nav_medical"
+            android:icon="@drawable/baseline_medical_services_24"
+            android:title="Medical" />
+    </group>
+</menu>
